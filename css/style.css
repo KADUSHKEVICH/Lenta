@@ -209,11 +209,10 @@ body{
     font-size: 17px;
     font-weight: bold;
     line-height: 19px;
+    color: #000;
     background: #FCD006;
     border-radius: 100px;
     padding: 15px 64px;
-    border: none;
-    outline: none;
     cursor: pointer;
     -webkit-transition: linear 200ms;
     -o-transition: linear 200ms;
@@ -894,18 +893,18 @@ body{
 }
 
 .footer__contacts-mail{
-    margin-bottom: 24px;
+    margin-bottom: 30px;
+
 }
 
 .footer__contacts-button{
     font-size: 17px;
     font-weight: bold;
     line-height: 19px;
+    color: #000;
     background: #FCD006;
     border-radius: 100px;
     padding: 15px 64px;
-    border: none;
-    outline: none;
     cursor: pointer;
     -webkit-transition: linear 200ms;
     -o-transition: linear 200ms;
@@ -928,6 +927,7 @@ body{
         -ms-flex-align: center;
             align-items: center;
     width: 200px;
+    margin-top: 30px;
 }
 /* Footer end */
 
