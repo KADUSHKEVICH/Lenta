@@ -782,6 +782,8 @@ body{
     width: 224px;
     height: 224px;
     margin-bottom: 20px;
+    -webkit-transition: linear 200ms;
+    -o-transition: linear 200ms;
     transition: linear 200ms;
 }
 
