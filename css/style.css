@@ -775,21 +775,20 @@ body{
     height: 300px;
 }
 
+.team__slider .slick-list{
+    height: 350px;
+}
+
 .team__slide{
     position: relative;
-    height: 300px;
 }
 
 .team__slide-img{
     margin: 0 auto;
     width: 224px;
     height: 224px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     transition: linear 200ms;
-}
-
-.team__slide-img:hover{
-    
 }
 
 .team__slide-text{
@@ -797,7 +796,7 @@ body{
     position: absolute;
     width: 206px;
     height: 100px;
-    bottom: -57px;
+    bottom: -100px;
     right: 57px;
 }
 
@@ -822,7 +821,7 @@ body{
 }
 
 .team__slider .slick-arrow{
-    top: 40%;
+    top: 35%;
 }
 
 .team__slider .slick-prev{
@@ -1045,12 +1044,48 @@ body{
         width: 180px;
         height: 180px;
     }
+
+    .team__slide-text{
+        display: none;
+        position: absolute;
+        width: 206px;
+        height: 100px;
+        bottom: -100px;
+        right: 23px;
+    }
+    
+    .team__slide:hover .team__slide-img{
+        width: 190px;
+        height: 190px;
+    }
+
+    .team__slider .slick-arrow{
+        top: 25%;
+    }
     
 }
 
 @media (max-width: 1024px) {
     .main__header-list-item{
         font-size: 16px;
+    }
+
+    .team__slider{
+        height: 200px;
+    }
+
+    .slick-list{
+        height: 200px;
+    }
+
+    .team{
+        padding-bottom: 20px;
+    }
+
+    .team__slide:hover .team__slide-img{
+        width: 100px;
+        height: 100px;
+        outline: none;
     }
 }
 
@@ -1169,6 +1204,10 @@ body{
         height: 175px;
     }
 
+    .team__slide:hover .team__slide-text{
+        display: none;
+    }
+
     .criteria__title {
         padding-top: 50px;
         margin-bottom: 50px;
@@ -1277,6 +1316,11 @@ body{
     .directions-tabs-img{
         display: none;
     }
+
+    .team__slide:hover .team__slide-img{
+        width: 70px;
+        height: 70px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -1353,6 +1397,18 @@ body{
     }
 
     .slick-arrow {
-        top: 14%;
+        top: 5%;
+    }
+
+    .team__slider{
+        height: 100px;
+    }
+
+    .slick-list{
+        height: 100px;
+    }
+
+    .team{
+        padding-bottom: 10px;
     }
 }
