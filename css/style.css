@@ -1023,7 +1023,7 @@ body{
     }
 
     .team {
-        padding-bottom: 90px;
+        padding-bottom: 30px;
     }
 
     .team:before {
@@ -1042,12 +1042,11 @@ body{
     }
 
     .team__slide-text{
-        display: none;
         position: absolute;
         width: 206px;
         height: 100px;
         bottom: -100px;
-        right: 23px;
+        right: 60px;
     }
     
     .team__slide:hover .team__slide-img{
@@ -1070,7 +1069,7 @@ body{
         height: 200px;
     }
 
-    .slick-list{
+    .team__slider .slick-list{
         height: 200px;
     }
 
@@ -1079,9 +1078,17 @@ body{
     }
 
     .team__slide:hover .team__slide-img{
-        width: 100px;
-        height: 100px;
+        width: 180px;
+        height: 180px;
         outline: none;
+    }
+
+    .team__slide:hover .team__slide-text{
+        display: none;
+    }
+
+    .team__slider .slick-arrow {
+        top: 38%;
     }
 }
 
@@ -1190,8 +1197,8 @@ body{
     }
 
     .team__slide-img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
     .team:before {
@@ -1200,8 +1207,18 @@ body{
         height: 175px;
     }
 
+    .team__slide:hover .team__slide-img{
+        width: 150px;
+        height: 150px;
+        outline: none;
+    }
+
     .team__slide:hover .team__slide-text{
         display: none;
+    }
+
+    .team__slider .slick-arrow {
+        top: 28%;
     }
 
     .criteria__title {
@@ -1281,8 +1298,17 @@ body{
     }
 
     .team__slide-img{
-        width: 70px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .team__slide:hover .team__slide-img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .team__slider .slick-arrow {
+        top: 17%;
     }
 
     .main__footer-list{
@@ -1313,9 +1339,22 @@ body{
         display: none;
     }
 
+    
+}
+
+@media (max-width: 500px) {
+    .team__slide-img{
+        width: 70px;
+        height: 70px;
+    }
+
     .team__slide:hover .team__slide-img{
         width: 70px;
         height: 70px;
+    }
+
+    .team__slider .slick-arrow {
+        top: 13%;
     }
 }
 
@@ -1392,19 +1431,23 @@ body{
         padding-bottom: 20px;
     }
 
-    .slick-arrow {
-        top: 5%;
+    .main__content__slider .slick-arrow {
+        top: 17%;
     }
 
     .team__slider{
         height: 100px;
     }
 
-    .slick-list{
+    .team__slider .slick-list{
         height: 100px;
     }
 
     .team{
         padding-bottom: 10px;
+    }
+
+    .main__content__offer, .main__content__directors {
+        margin-bottom: 50px;
     }
 }
