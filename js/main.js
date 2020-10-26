@@ -11,8 +11,8 @@ $(function () {
 $(function () {
 	$('.team__slider').slick({
 		arrows: true,
-		slidesToShow: 4,
-        slidesToScroll: 4,
+		slidesToShow: 3,
+        slidesToScroll: 3,
         speed: 700,
         responsive: [
             {

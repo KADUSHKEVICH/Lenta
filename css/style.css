@@ -731,7 +731,7 @@ body{
 
 /* Team start */
 .team{
-    padding-bottom: 110px;
+    padding-bottom: 50px;
     position: relative;
 }
 
@@ -792,7 +792,7 @@ body{
     width: 206px;
     height: 100px;
     bottom: -100px;
-    right: 57px;
+    right: 108px;
 }
 
 .team__slide-name{
@@ -1023,7 +1023,7 @@ body{
     }
 
     .team {
-        padding-bottom: 30px;
+        padding-bottom: 0px;
     }
 
     .team:before {
@@ -1046,7 +1046,7 @@ body{
         width: 206px;
         height: 100px;
         bottom: -100px;
-        right: 60px;
+        left: 108px;
     }
     
     .team__slide:hover .team__slide-img{
@@ -1058,6 +1058,18 @@ body{
         top: 25%;
     }
     
+}
+
+@media (max-width: 1200px) {
+    .team__slide-text{
+        left: 95px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .team__slide-text{
+        left: 75px;
+    }
 }
 
 @media (max-width: 1024px) {
