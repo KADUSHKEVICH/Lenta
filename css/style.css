@@ -930,9 +930,12 @@ body{
     margin-top: 30px;
 }
 
+.footer__contacts-social-item{
+    transition: linear 200ms;
+}
+
 .footer__contacts-social-item:hover{
     opacity: .8;
-
 }
 /* Footer end */
 
