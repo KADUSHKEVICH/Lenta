@@ -16,12 +16,20 @@ $(function () {
         speed: 700,
         responsive: [
             {
-              breakpoint: 420,
+              breakpoint: 768,
               settings: {
-                arrows: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint: 425,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
               }
             }
-          ]
+        ]
 	});
 });
 
